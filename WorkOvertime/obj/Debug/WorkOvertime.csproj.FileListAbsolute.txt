@@ -1,0 +1,17 @@
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\WorkOvertime.exe.config
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\WorkOvertime.exe
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\WorkOvertime.pdb
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\Common.NLog.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\Newtonsoft.Json.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\NLog.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\NPOI.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\NPOI.OOXML.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\NPOI.OpenXml4Net.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.FormMain.resources
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.Properties.Resources.resources
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.csproj.GenerateResource.Cache
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.exe
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.pdb
+D:\worklist\demo\net\WorkOvertime\WorkOvertime\obj\Debug\WorkOvertime.csprojResolveAssemblyReference.cache
