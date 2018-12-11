@@ -38,7 +38,7 @@ namespace WorkOvertime
 
             ExcelFile file = new ExcelFile();
 
-            List<RecodeModel> list = file.Read(filePath);
+            List<RecodeModel> list = file.Read(filePath, this.comboBox1.Text);
             if (list != null && list.Count > 0)
             {
                 var names = list.Where(l => !l.Name.Contains("离职")).GroupBy(l => l.Name).Select(l => l.Key).ToList();
@@ -137,6 +137,11 @@ namespace WorkOvertime
             {
                 MessageBox.Show(er.ToString());
             }
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            this.comboBox1.SelectedIndex = 0;
         }
     }
 }

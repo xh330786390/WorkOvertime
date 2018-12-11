@@ -16,6 +16,8 @@ namespace WorkOvertime.Files
 {
     public class ExcelFile
     {
+        private string departName = string.Empty;
+
         /// <summary>
         /// 工作表
         /// </summary>
@@ -29,8 +31,9 @@ namespace WorkOvertime.Files
         /// </summary>
         /// <param name="fileName">文件</param>
         /// <returns>数据表</returns>
-        public List<RecodeModel> Read(string file)
+        public List<RecodeModel> Read(string file, string departName)
         {
+            this.departName = departName;
             try
             {
                 DataTable dt = new DataTable();
@@ -63,11 +66,11 @@ namespace WorkOvertime.Files
             for (int i = startRow; i <= sheet.LastRowNum; i++)
             {
                 string departmentName = sheet.GetRow(i).GetCell(1).ToString(); //部门
-                if (departmentName == SysConst.DepartmentName)
+                if (departmentName == this.departName)
                 {
+                    string name = sheet.GetRow(i).GetCell(0).ToString(); //姓名
                     RecodeModel item = new RecodeModel();
                     item.Name = sheet.GetRow(i).GetCell(0).ToString(); //姓名
-                    if (item.Name != "陈祖武") continue;
                     item.DepartmentName = departmentName; //部门
                     item.Week = sheet.GetRow(i).GetCell(5).ToString(); //星期
                     item.StartTime = sheet.GetRow(i).GetCell(7).ToString(); //上班时间
